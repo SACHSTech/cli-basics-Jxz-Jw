@@ -1,1 +1,24 @@
-
+~/cli-basics-Jxz-Jw$ pwd
+/home/runner/cli-basics-Jxz-Jw
+~/cli-basics-Jxz-Jw$ mkdir CLIBasicsFolder
+~/cli-basics-Jxz-Jw$ ls
+CLIBasicsFolder  README.md  replit.nix  TerminalSession.txt
+~/cli-basics-Jxz-Jw$ cd CLIBasicsFolder
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ echo Jasmine, ICS4Ub >> myfile.txt
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ cat myfile.txt
+Jasmine, ICS4Ub
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ mv myfile2.txt ../
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ ls ../
+CLIBasicsFolder  myfile2.txt  README.md  replit.nix  TerminalSession.txt
+~/cli-basics-Jxz-Jw/CLIBasicsFolder$ cd ..
+~/cli-basics-Jxz-Jw$ ls
+CLIBasicsFolder  myfile2.txt  README.md  replit.nix  TerminalSession.txt
+~/cli-basics-Jxz-Jw$ rm CLIBasicsFolder/myfile.txt
+~/cli-basics-Jxz-Jw$ rmdir CLIBasicsFolder
+~/cli-basics-Jxz-Jw$ ls
+myfile2.txt  README.md  replit.nix  TerminalSession.txt
